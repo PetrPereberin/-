@@ -1,0 +1,8 @@
+print ("ВВЕДИТЕ ЛОГИН")
+admin = input()
+print ("ВВЕДИТЕ ПАРОЛЬ")
+password = int(input())
+if admin == str("Admin") and password == 1234:
+    print("ДОБРО ПОЖАЛОВАТЬ")
+else:
+    print("ПОШЕЛ НАХУЙ!!!")
